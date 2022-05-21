@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navheight: 53px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo{
+    margin: 5px 24px;
+}
+#logo img{
+    margin: 4px 12px;
+    height: 40px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 10px 90px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    background: url('images/billithug.jpg') no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 590px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.7;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#service{
+    display: flex;
+    margin: 20px;
+}
+#service .box{
+    border: 6px solid black;
+    padding: 20px;
+    /* width: 33%; */
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+#service .box img{
+    display: block;
+    height: 200px;
+    margin: auto;
+}
+#service .box p{
+    font-family: 'Quicksand', sans-serif;
+}
+#clientcont{
+    position: relative;
+    height: 350px;
+}
+#clientcont::before{
+    content: "";
+    background: url('images/bull.jpg') no-repeat center center;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apneclient{
+    margin: 15px;
+    padding: 15px;
+}
+#clients img{
+    height: 100px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('images/forest.jpg') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactbox input, #contactbox textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+#contactbox form{
+    width: 50%;
+}
+#contactbox label{
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.hprime{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    padding: 15px;
+}
+.hsec{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+.btn{
+    padding: 6px 20px;
+    margin: 18px;
+    color: black;
+    border: 2px solid white;
+    background-color: grey;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}

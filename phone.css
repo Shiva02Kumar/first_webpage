@@ -1,0 +1,25 @@
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 310px;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 1rem;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 7px 5px;
+}
+#service{
+    flex-direction: column;
+}
+#clients{
+    overflow: hidden;
+}
+.hprime{
+    font-size: 2.8rem;
+}
